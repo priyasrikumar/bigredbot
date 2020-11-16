@@ -1,0 +1,24 @@
+{
+  "name": "bigredbot",
+  "version": "1.0.0",
+  "description": "A bot for managing CU courses",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priyasrikumar/bigredbot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priyasrikumar/bigredbot/issues"
+  },
+  "homepage": "https://github.com/priyasrikumar/bigredbot#readme",
+  "dependencies": {
+    "discord.js": "^12.4.1",
+    "eslint": "^7.13.0",
+    "lowdb": "^1.0.0"
+  }
+}

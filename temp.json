@@ -1,0 +1,43 @@
+{
+    "prefix": ".",
+    "token": "Nzc2MTA1OTI0MDI4MTM3NDkz.X6wC9w.2oGERw3KsIIsUxRScf9mXLOYPHA",
+    "name": "BigRed Bot",
+    "leave_delay": "180000",
+    "broadcast_channels": [],
+    "master_channel": "766447465486221333",
+    "master_guild": "764261624776491029",
+    "tag_roles": {
+        "among_us": [
+            "",
+            "",
+            ""
+        ],
+        "skribbl": [
+            "",
+            "",
+            ""
+        ]
+    },
+    "embeds": {
+        "master": {
+            "title": "Use this channel to post ads for your group content!",
+            "description": "You must be in a voice channel!\nPost your ads in the format:\n `.lfg [among_us|skribbl] [invite]`",
+            "fields": [
+                {
+                    "name": "among us",
+                    "value": ".lfg among_us ABCDEF"
+                },
+                {
+                    "name": "skribbl.io",
+                    "value": ".lfg skribbl skribbl.io/?Z8h9pmBVsjE6"
+                }
+            ]
+        },
+        "broadcast": {
+            "title": "This is a broadcast channel for the BigRed Bot!",
+            "description": "LFG posts that are made on the CU server will be copied here.\nClicking on the link in the descriptions will let you join the group in a voice party!\nHead over to CU to make your own LFG posts!"
+        }
+    },
+    "roleChannelID": "776831366020595753",
+    "roleMessageID": "777637786340950056"
+}
