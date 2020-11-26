@@ -44,7 +44,7 @@ const postInvite = async (channel, args, invite) => {
 }
 
 module.exports = {
-	name: 'lfg',
+	name: 'invite',
 	description: 'create a group invitation for anykind of content',
 	async execute(msg, args) {
 		// do not execute this command if bot is not configured
