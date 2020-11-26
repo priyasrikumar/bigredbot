@@ -45,11 +45,11 @@ const postInvite = async (channel, args, invite) => {
 
 module.exports = {
 	name: 'invite',
-	description: 'create a group invitation for anykind of content',
+	description: 'create a group invitation for any kind of content',
 	async execute(msg, args) {
 		// do not execute this command if bot is not configured
 		if (!(config.master_channel && config.master_guild)) {
-			throw 'master_channel and master_guild must be configured to use LFG command';
+			throw 'master_channel and master_guild must be configured to use invite command';
 		}
 
 		const guild = msg.client.guilds.resolve(config.master_guild);
@@ -76,7 +76,7 @@ module.exports = {
 		const group_type = args.shift().toLowerCase();
 		if (!(group_type in config.tag_roles)) {
 			// tell user the group type "_" is unsupported
-			msg.author.send(`"${group_type}" is not a valid group type. Please use one of "hellgate", "famefarm", "gank"`);
+			msg.author.send(`"${group_type}" is not a valid group type. Please use one of "skribbl" or "among_us".`);
 			return;
 		}
 		// preparing info for the embed
